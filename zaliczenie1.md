@@ -13,6 +13,7 @@
 ##Zadanie.1a (Import bazy reddit)
 
 ###Mongodb:
+
 ```sh
 
 mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
@@ -29,7 +30,8 @@ Szczegółowe dane na temat pracy komputera:
 
 
 
-PosgreSQL:
+###PosgreSQL
+
 ![](http://i.imgur.com/94DjQth.png) ![](http://i.imgur.com/xQPbqXv.png) ![](http://i.imgur.com/RNDlbvY.png) ![](http://i.imgur.com/6jb0vwa.png)
 
 
@@ -40,7 +42,8 @@ PosgreSQL:
 
 
 
-Przykładowy rekord z zimportowanej bazy danych:
+###Przykładowy rekord z zimportowanej bazy danych
+
 ![](http://i.imgur.com/1iD73z5.png)
 
 
@@ -83,7 +86,6 @@ Specjalnie dla potrzeb projektu stworzyłem mape Geojson dla lotnisk znajdujący
 
 mongoimport -c lotniskacoll7 < C:\lotniska.json
 
-
 ```
 
 ###Przykładowy rekord bazy
@@ -91,7 +93,6 @@ mongoimport -c lotniskacoll7 < C:\lotniska.json
 ```sh
 
 db.lotniskacoll7.findOne()
-
 
 ```
 
