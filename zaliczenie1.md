@@ -117,26 +117,8 @@ var GrodziskMazowiecki = {
 db.lotniskacoll7.find({ loc: {$near: {$geometry: GrodziskMazowiecki}} }).limit(3)
 
 ```
-```sh
 
-{ "type" : "Feature", "properties"
- : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
- "miasto" : "Warszawa" }, "loc" : { "type" : "Point", "coordinates" : [ 20.98388
-671875, 52.25470880113083 ] } },
-
-{ "_id" : ObjectId("5696582f8959c653e52165f2"), "type" : "Feature", "properties"
- : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
- "miasto" : "Radom" }, "loc" : { "type" : "Point", "coordinates" : [ 21.14318847
-65625, 51.42661449707482 ] } },
-
-{ "_id" : ObjectId("5696582f8959c653e52165e0"), "type" : "Feature", "properties"
- : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
- "miasto" : "Lodz" }, "loc" : { "type" : "Point", "coordinates" : [ 19.456787109
-374996, 51.80182150078305 ] } }
-
-```
-
-![](https://github.com/wkulewicz/nosql.wk/blob/master/grodzisk.geojson)
+[Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/grodzisk.geojson)
 
 
 
