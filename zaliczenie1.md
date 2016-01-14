@@ -33,7 +33,7 @@ Szczegółowe dane na temat pracy komputera:
 
 
 PosgreSQL:
-![](http://i.imgur.com/94DjQth.png) ![](http://i.imgur.com/6jb0vwa.png) ![](http://i.imgur.com/RNDlbvY.png) ![](http://i.imgur.com/xQPbqXv.png)
+![](http://i.imgur.com/94DjQth.png) ![](http://i.imgur.com/xQPbqXv.png) ![](http://i.imgur.com/RNDlbvY.png) ![](http://i.imgur.com/6jb0vwa.png)
 
 
 
