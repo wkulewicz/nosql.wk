@@ -10,9 +10,7 @@
 
 
 
-Zadanie 1a
-
-Import bazy reddit:
+#Zadanie.1a (Import bazy reddit)
 
 Mongodb:
 
@@ -47,25 +45,25 @@ Przykładowy rekord z zimportowanej bazy danych:
 ![](http://i.imgur.com/1iD73z5.png)
 
 
-Zadanie 1b
-
-Zliczanie rekordów:
+#Zadanie.1b (Zliczanie rekordów)
 
 Mongodb:
-
 ![](http://i.imgur.com/lLgdQq9.png)
+
 00:21:43
 
 PostgreSQL:
+
 ![](http://i.imgur.com/hVpZ5yd.png)
+
 00:15:16
 
-Zadanie 1c
+#Zadanie.1c
 
 ...
 
 
-Zadanie 1d
+#Zadanie.1d
 
 Specjalnie dla potrzeb projektu stworzyłem mape Geojson dla lotnisk znajdujących się na terenie Polski. W tym celu wykorzystałem stronę http://geojson.io/.
 
