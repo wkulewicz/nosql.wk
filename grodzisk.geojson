@@ -1,0 +1,14 @@
+{ "type" : "Feature", "properties"
+ : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
+ "miasto" : "Warszawa" }, "loc" : { "type" : "Point", "coordinates" : [ 20.98388
+671875, 52.25470880113083 ] } },
+
+{ "type" : "Feature", "properties"
+ : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
+ "miasto" : "Radom" }, "loc" : { "type" : "Point", "coordinates" : [ 21.14318847
+65625, 51.42661449707482 ] } },
+
+{  "type" : "Feature", "properties"
+ : { "marker-color" : "#7e7e7e", "marker-size" : "medium", "marker-symbol" : "",
+ "miasto" : "Lodz" }, "loc" : { "type" : "Point", "coordinates" : [ 19.456787109
+374996, 51.80182150078305 ] } }
