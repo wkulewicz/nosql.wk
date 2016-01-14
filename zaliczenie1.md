@@ -10,10 +10,9 @@
 
 
 
-#Zadanie.1a (Import bazy reddit)
+##Zadanie.1a (Import bazy reddit)
 
-Mongodb:
-
+###Mongodb:
 ```sh
 
 mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
@@ -45,32 +44,40 @@ Przykładowy rekord z zimportowanej bazy danych:
 ![](http://i.imgur.com/1iD73z5.png)
 
 
-#Zadanie.1b (Zliczanie rekordów)
+##Zadanie.1b (Zliczanie rekordów)
 
-Mongodb:
+###Mongodb:
+
 ![](http://i.imgur.com/lLgdQq9.png)
+
+```sh
 
 00:21:43
 
-PostgreSQL:
+```
+###PostgreSQL:
 
 ![](http://i.imgur.com/hVpZ5yd.png)
 
+```sh
+
 00:15:16
 
-#Zadanie.1c
+```
+
+##Zadanie.1c
 
 ...
 
 
-#Zadanie.1d
+##Zadanie.1d
 
 Specjalnie dla potrzeb projektu stworzyłem mape Geojson dla lotnisk znajdujących się na terenie Polski. W tym celu wykorzystałem stronę http://geojson.io/.
 
 ![](http://i.imgur.com/1p9odFi.png)
 
 
-Import bazy:
+###Import bazy:
 
 ```sh
 
@@ -79,7 +86,8 @@ mongoimport -c lotniskacoll7 < C:\lotniska.json
 
 ```
 
-Przykładowy rekord bazy
+###Przykładowy rekord bazy
+
 ```sh
 
 db.lotniskacoll7.findOne()
@@ -89,7 +97,7 @@ db.lotniskacoll7.findOne()
 
 ![](http://i.imgur.com/dYQXjHE.png)
 
-Dodanie geo-indexów
+###Dodanie geo-indexów
 
 ```sh
 
