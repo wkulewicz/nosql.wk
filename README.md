@@ -1,6 +1,6 @@
 Bazy NoSQL:
 
-1. [Zaliczenie](https://github.com/wkulewicz/nosql.wk):
+1. [Zaliczenie](https://github.com/wkulewicz/nosql.wk/blob/master/zaliczenie1.md):
  - [ ] EDA
 1. [Egzamin]()
  - [ ] Aggregation Pipeline
