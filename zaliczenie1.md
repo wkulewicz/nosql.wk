@@ -34,14 +34,14 @@ Szczegółowe dane na temat pracy komputera:
 
 PosgreSQL:
 ![](http://i.imgur.com/94DjQth.png)
-2:35:04
 
-Praca procesora:
 ![](http://i.imgur.com/RNDlbvY.png)
-Praca dysku:
+
 ![](http://i.imgur.com/RNDlbvY.png)
-Praca RAM'u:
+
 ![](http://i.imgur.com/xQPbqXv.png)
+
+
 
 Przykładowy rekord z zimportowanej bazy danych:
 ![](http://i.imgur.com/1iD73z5.png)
