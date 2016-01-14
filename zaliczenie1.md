@@ -22,9 +22,9 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 ```
 
 ![](http://i.imgur.com/xXI9ufd.png)
-Wykres pracy procesora:
+###Szczegółowe dane na temat pracy komputera:
 ![](http://i.imgur.com/NxwDz9G.png)
-Szczegółowe dane na temat pracy komputera:
+
 ![](http://i.imgur.com/uAhKrty.png)
 
 
