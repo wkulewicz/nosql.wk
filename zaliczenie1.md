@@ -62,15 +62,45 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 
 ![](http://i.imgur.com/hVpZ5yd.png)
 
-```sh
 
-00:15:16
-
-```
 
 ##Zadanie.1c
 
-...
+##Mongodb
+
+```sh
+
+db.rc.find({"edited" : false, "author" : "YoungModern", "score" : {$gt: 10}}).count()
+6
+
+```
+```sh
+
+
+db.rc.find({"edited" : false}).count()
+1618274
+
+```
+
+
+
+
+##Postgresql
+
+```sh
+
+SELECT count(*) FROM IMPORT.RC_2015_01 WHERE edited=false AND authoR=YoungModern AND score<15;
+6
+
+```
+
+```sh
+
+SELECT count(*) FROM IMPORT.RC_2015_01 WHERE edited=false;
+1618274
+
+```
+
 
 
 ##Zadanie.1d
