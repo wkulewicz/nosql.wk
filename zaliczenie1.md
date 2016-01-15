@@ -70,7 +70,7 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 
 ```sh
 
-db.rc.find({"edited" : false, "author" : "YoungModern", "score" : {$gt: 10}}).count()
+db.rc.find({"edited" : false, "author" : "YoungModern", "score" : {$gt: 15}}).count()
 6
 
 ```
