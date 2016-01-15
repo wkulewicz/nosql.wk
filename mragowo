@@ -1,0 +1,86 @@
+ {
+  "type": "FeatureCollection",
+  "features": [
+ 
+ {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Bydgoszcz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.984619140625,
+          53.1335898292448
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.98388671875,
+          52.25470880113083
+        ]
+      }
+    },
+	    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Lodz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.456787109374996,
+          51.80182150078305
+        ]
+      }
+    },
+	   {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Radom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1431884765625,
+          51.42661449707482
+        ]
+      }
+    },
+	    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Gdansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.577880859375,
+          54.374158445055734
+        ]
+      }
+    }
+	]
+}
