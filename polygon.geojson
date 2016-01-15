@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+{
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.98388671875,
+          52.25470880113083
+        ]
+      }
+    },
+	    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Rzeszow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0330810546875,
+          50.0923932109388
+        ]
+      }
+    },
+	    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Lublin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.56591796875,
+          51.25503952021694
+        ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Krakow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9456787109375,
+          50.06948077670394
+        ]
+      }
+    },
+	    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Radom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1431884765625,
+          51.42661449707482
+       ]
+  } 
+}
+]
+}
