@@ -35,6 +35,8 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 ![](http://i.imgur.com/94DjQth.png) ![](http://i.imgur.com/xQPbqXv.png) ![](http://i.imgur.com/RNDlbvY.png) ![](http://i.imgur.com/6jb0vwa.png)
 
 
+2:34:50
+
 
 
 ###Wniosek: Import tej samej bazy do MongoDB trwał prawie dwa razy dłużej. Jeżeli chodzi o obciażenie podzespołów to było ono podobne.
