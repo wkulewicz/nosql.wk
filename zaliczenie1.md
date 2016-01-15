@@ -120,6 +120,22 @@ db.lotniskacoll7.find({ loc: {$near: {$geometry: GrodziskMazowiecki}} }).limit(3
 
 [Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/grodzisk.geojson)
 
+###1.
+
+```sh
+
+		  var Mragowo = 
+		            {
+               "type": "Point",
+               "coordinates":[ 21.298370361328125,
+                53.88167850008248]
+               }
+
+db.lotniskacoll7.find({ loc: {$near: {$geometry: Mragowo}} }).limit(5)
+
+```
+
+[Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/mragowo.geojson)
 
 
 
