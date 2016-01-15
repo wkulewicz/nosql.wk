@@ -120,7 +120,7 @@ db.lotniskacoll7.find({ loc: {$near: {$geometry: GrodziskMazowiecki}} }).limit(3
 
 [Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/grodzisk.geojson)
 
-###1.
+###2.
 
 ```sh
 
