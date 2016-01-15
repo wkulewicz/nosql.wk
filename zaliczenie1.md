@@ -17,7 +17,7 @@
 ```sh
 
 mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
-4:12:37
+4:21:34
 
 ```
 
@@ -37,7 +37,7 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 
 
 
-
+###Wniosek: Import tej samej bazy do MongoDB trwał prawie dwa razy dłużej. Jeżeli chodzi o obciażenie podzespołów to było ono podobne.
 
 
 
@@ -55,13 +55,18 @@ mongoimport -d zad1 -c rc -type json --file "C:\RC_2015-01.json
 
 ```sh
 
-00:21:43
+00:21:40
 
 ```
 ###PostgreSQL:
 
 ![](http://i.imgur.com/hVpZ5yd.png)
 
+```sh
+
+00:15:20
+
+```
 
 
 ##Zadanie.1c
@@ -135,7 +140,7 @@ db.lotniskacoll7.findOne()
 db.places.ensureIndex({"loc" : "2dsphere"})
 
 ```
-###1.
+###1. Point
 
 ```sh
 
@@ -150,7 +155,7 @@ db.lotniskacoll7.find({ loc: {$near: {$geometry: GrodziskMazowiecki}} }).limit(3
 
 [Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/grodzisk.geojson)
 
-###2.
+###2. Point
 
 ```sh
 
@@ -169,12 +174,53 @@ db.lotniskacoll7.find({ loc: {$near: {$geometry: Mragowo}} }).limit(5)
 
 
 
+###3. Polygon
+
+```sh
+
+db.l.find({
+    loc: {
+        $geoWithin: {
+            $geometry: {
+                "type": "Polygon",
+                "coordinates": [[
+            [
+              19.324951171875,
+              54.25238930276849
+            ],
+            .
+            .
+            .
+            ]
+          ] ]
+      } } } }
+ )
+
+```
+
+[Wyniki wygenerowane na mapie](https://github.com/wkulewicz/nosql.wk/blob/master/polygon.geojson)
 
 
+###4. LineString
 
+```sh
+var line = {
+    "type": "LineString",
+    "coordinates": [[19.017333984375,
+          50.29635802110316], [19.456787109374996,
+          51.80182150078305]]
+}
 
+db.lotniskacoll7.find({
+    loc: {
+        $geoIntersects: {
+            $geometry: line
+        }
+    }
+}).limit(3)
+```
 
-
+Polecenie nie wygenerowało żadnych wyników.
 
 
 
