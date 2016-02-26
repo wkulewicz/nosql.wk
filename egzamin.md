@@ -37,7 +37,6 @@ db.rc.aggregate([
 )
 ```
 
-![](http://i.imgur.com/R1xphZP.png)
 
 ```js
 { "_id" : "wutshappening", "score" : -9122 }
@@ -51,6 +50,8 @@ db.rc.aggregate([
 { "_id" : "MisterCannon", "score" : -2183 }
 { "_id" : "berylthranox4", "score" : -2153 }
 ```
+
+![](http://i.imgur.com/R1xphZP.png)
 
 ```js
 db.rc.aggregate
