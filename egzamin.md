@@ -9,7 +9,7 @@
 					                   
 
 
-
+###Zapytanie o 10 najgorszych komentarzy nieedytowanych
 
 ###Mongodb:
 
@@ -53,27 +53,32 @@ db.rc.aggregate([
 
 ![](http://i.imgur.com/R1xphZP.png)
 
+
+###Zapytanie o 10 najlepszych komentarzy nieedytowanych
+
 ```js
-db.rc.aggregate
-	([{$group:{_id:"$author", controversiality: {$sum: "$controversiality" }}}, 
-    {$sort: {controversiality: 1}}, {$limit: 1} ], 
-	{allowDiskUse:true}
+db.rc.aggregate([
+	{$match : { edited : false}}, 
+	{$group : { _id : "$id", totalscore : {$sum: "$score"}}}, 
+	{$sort : { totalscore : 1 }}, 
+	{$limit : 10}], {allowDiskUse: true} 
 )
 ```
 
-
-
+###pymongo:
 
 ```js
 import pymongo
 client = pymongo.MongoClient("localhost", 27017)
 db = client.rc
-db.rc.aggregate
-	([{$group:{_id:"$author", controversiality: {$sum: "$controversiality" }}}, 
-    {$sort: {controversiality: 1}}, {$limit: 1} ], 
-	{allowDiskUse:true}
+db.rc.aggregate([
+	{$match : { edited : false}}, 
+	{$group : { _id : "$id", totalscore : {$sum: "$score"}}}, 
+	{$sort : { totalscore : 1 }}, 
+	{$limit : 10}], {allowDiskUse: true} 
 )
-```				  
+```
+			  
 ```js				  
 { "_id" : "cnauvck", "totalscore" : 7934 }
 { "_id" : "cnatmcj", "totalscore" : 7614 }
@@ -181,8 +186,24 @@ db.rc.aggregate([
 
 
 
+```js
+db.rc.aggregate
+	([{$group:{_id:"$author", controversiality: {$sum: "$controversiality" }}}, 
+    {$sort: {controversiality: 1}}, {$limit: 1} ], 
+	{allowDiskUse:true}
+)
+```
 
-
+```js
+import pymongo
+client = pymongo.MongoClient("localhost", 27017)
+db = client.rc
+db.rc.aggregate
+	([{$group:{_id:"$author", controversiality: {$sum: "$controversiality" }}}, 
+    {$sort: {controversiality: 1}}, {$limit: 1} ], 
+	{allowDiskUse:true}
+)
+```	
 
 
 
