@@ -37,7 +37,7 @@ db.rc.aggregate([
 )
 ```
 
-![](http://imgur.com/R1xphZP)
+![](http://i.imgur.com/R1xphZP)
 
 ```js
 { "_id" : "wutshappening", "score" : -9122 }
@@ -60,7 +60,7 @@ db.rc.aggregate
 )
 ```
 
-![](http://imgur.com/b98Pzx2)
+![](http://i.imgur.com/b98Pzx2)
 
 ```js
 import pymongo
@@ -96,7 +96,7 @@ db.rc.aggregate ( [
 )
 ```
 
-![](http://imgur.com/ITT1ZFj)
+![](http://i.imgur.com/ITT1ZFj)
 
 ```js
 import pymongo
