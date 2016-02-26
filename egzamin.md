@@ -60,7 +60,7 @@ db.rc.aggregate
 )
 ```
 
-![](http://i.imgur.com/b98Pzx2.png)
+
 
 
 ```js
@@ -85,7 +85,7 @@ db.rc.aggregate
 { "_id" : "cnrw9jn", "totalscore" : 5619 }
 { "_id" : "cnxq3om", "totalscore" : 5554 }				  
 				  
-				  
+![](http://i.imgur.com/b98Pzx2.png)	  
 
 				  
 ```js		  
@@ -97,7 +97,7 @@ db.rc.aggregate ( [
 )
 ```
 
-![](http://i.imgur.com/ITT1ZFj.png
+
 
 ```js
 import pymongo
@@ -113,6 +113,9 @@ db.rc.aggregate ( [
 ```js
 { "_id" : null, "count" : 31446 }
 ```
+
+![](http://i.imgur.com/ITT1ZFj.png)
+
 ```js				  
 db.rc.aggregate ( [ 
 	{$match: {edited: false, author_flair_text: "Female"} }, 
