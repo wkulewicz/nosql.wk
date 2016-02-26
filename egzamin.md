@@ -137,7 +137,7 @@ db.rc.aggregate ( [
 	{allowDiskUse:true}
 )
 ```
-js```
+```js
 { "_id" : null, "count" : 5981 }
 ```
 ```js
@@ -155,8 +155,9 @@ db.rc.aggregate( [
 	{ $group: { _id: null, count: {$sum: 1} } } ]
 )
 ```
+```js
 { "_id" : null, "count" : 5025 }
-
+```
 ```js
 db.rc.aggregate([ 
 	{$match: { author_flair_text: "Male" } }, 
